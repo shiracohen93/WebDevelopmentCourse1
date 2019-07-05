@@ -22,7 +22,7 @@
         width: 156px;
         margin: 0px 300px;
     }
-    #skip a:focus, #skip a:active {
+        #skip a:focus, #skip a:active {
             position: relative;
             left: 0;
             z-index: 9999;
@@ -35,10 +35,10 @@
             letter-spacing: -4px !important;
             font: bold 50px "Arial", "Freesans", sans-serif !important;
             /* color information, edit this to suit the colors of your layout */
-            color: #AEAEFE;
-            background: transparent url(transparent.png) repeat scroll 0 0;
-            border: 1px dotted #ffb4db;
-    }
+            background-color: white !important;           
+            color: black;
+            border: 1px solid black;
+        }
 
 /*-----------------------focus nav-----------------------------*/
 *,
