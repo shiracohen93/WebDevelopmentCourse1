@@ -1,0 +1,347 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title> אני התובע.ת - משפט בקטנה</title>
+    <meta name="description" content="כל מה שצריך לדעת על תביעה קטנה, קריטריונים לתחילת ההליך" />
+    <meta name="keywords" content="תביעה קטנה, בית משפט לתביעות קטנות, קריטריונים להגשת תביעה קטנה" />
+    <meta name="author" content="שירה כהן, דניאלה זוהר, ריטה זלוטניקוב" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="image/favicon.png" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+</head>
+<body>
+    <div id="container" class="container">
+        <article>
+            <header role="banner">
+                <div id="squr1"> </div>
+                <div id="squr2"> </div>
+                <a id="logoA" href="index.html">
+                    <p id="pLogo">משפט <span id="pBlue">בקטנה</span></p>
+                    <p>הכל על תביעה קטנה</p>
+                    <img src="image/logo.png" alt="נוצת דיו" />
+                </a>
+                <!--skip on contant-->
+                <ul id="skip">
+                    <li><a href="#bigPic1">דלג לתוכן</a></li>
+                </ul>
+                <nav role="navigation" aria-label="Primary" id="nav" class="nav">
+                    <ul id="nav_inner" class="nav__list">
+                        <li class="has-drop">
+                            <a class="current" href="page 1- aniTovea.html">אני התובע.ת</a>
+                            <ul class="nav__list__drop">
+                                <li><a href="‏‏‏‏page 2- startProcess.html">תחילת תהליך התביעה</a></li>
+                                <li><a href="‏‏page 3- trailDay.html">יום הדיון</a></li>
+                                <li><a href="‏‏‏‏page 4- afterDecision.html">לאחר החלטת השופט</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-drop">
+                            <a class="notActive" href="#" aria-invalid="true">אני הנתבע.ת</a>
+                            <ul class="nav__list__drop">
+                                <li><a href="‏‏‏‏page 3 - trailDayNitba.html">יום הדיון</a></li>
+                                <li><a href="‏‏‏‏‏‏page 4 - afterDecisionNitba.html">לאחר החלטת השופט</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="notActive" href="#" aria-invalid="true">צווי הגנה</a> </li>
+                        <li class="has-drop">
+                            <a class="notActive" href="#" aria-invalid="true">מידע נוסף</a>
+                            <ul class="nav__list__drop">
+                                <li><a class="notActive" href="#" aria-invalid="true"> מילון מושגים</a></li>
+                                <li><a class="notActive" href="#" aria-invalid="true">פסקי דין לדוגמא</a></li>
+                                <li><a class="notActive" href="#" aria-invalid="true">שאלות ותשובות</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!--the banner pic-->
+                <div class="banner" id="bigPic1"> </div>
+                <h1 class="pageH"> אני התובע.ת</h1>
+                <p class="firstSente" id="firstSente1">כל אחד מעל גיל 18 יכול להגיש<br /> תביעה,לבד או בקבוצה.</p>
+            </header>
+
+            <!--breadcrumb part-->
+            <ul class="breadcrumb" aria-label="פירורי לחם - נתיב הגעה לדף">
+                <li class="breadcrumb-item"><a href="index.html">דף הבית</a></li>
+                <li class="breadcrumb-item">אני התובע.ת</li>
+            </ul>
+           
+            <section id="criterions">
+                <h2>  4 קריטריונים בהם צריך לעמוד בשביל להגיש תביעה קטנה: </h2>
+                <div id="icons1"></div>
+                <p class="criterion">
+                    תביעות קטנות הן בעיקר בנושאי צרכנות*, סכסוכים אזרחיים ותביעות ביטוח.
+                    <span> *החלפת מוצר, תיקון מוצר או ביטול העסקה. </span>
+                </p>
+                <input id="Button1" class="hiddBtn , pointer" onclick="onclickShow1()" type="button" aria-label="לחץ כאן אם הקטגוריה לא רלוונטית אלייך" value="לא רלוונטי אלייך?" />
+
+
+                <!--hidden part-->
+                <p id="hidden1" class="hidden">
+                    אם מדובר ביחסים בין עובד למעביד - שייכים לבית דין לענייני עבודה
+                    <BR />
+                    ואם מדובר ביחסים בתוך המשפחה -שייכים לבית הדין לענייני משפחה
+                </p>
+                <div id="icons2"></div>
+                <p class="criterion">הנתבעים הם אנשים פרטיים או חברה פרטית. </p>
+                <input id="Button2" class="hiddBtn , pointer" onclick="onclickShow2()" type="button" aria-label="לחץ כאן אם הקטגוריה לא רלוונטית אלייך" value="לא רלוונטי אלייך?" />
+
+                <!--hidden part-->
+                <p id="hidden2" class="hidden">
+                    אם מדובר בתביעה נגד המדינה –
+                    זה הופך לתביעה אזרחית
+                </p>
+                <div id="icons3"></div>
+                <p class="criterion"> סכום התביעה אינו עולה מעל 33,900 ₪.</p>
+                <input id="Button3" class="hiddBtn , pointer" onclick="onclickShow3()" type="button" aria-label="לחץ כאן אם הקטגוריה לא רלוונטית אלייך" value="לא רלוונטי אלייך?" />
+
+                <!--hidden part-->
+                <p id="hidden3" class="hidden">
+                    אם מדובר בסכום גבוה יותר –
+                    זה הופך לתביעה אזרחית
+                </p>
+                <div id="icons4"></div>
+                <p class="criterion">ניתן להגיש עד 5 תביעות קטנות לאותו בית משפט בכל שנה (לועזית). </p>
+                <input id="Button4" class="hiddBtn , pointer" onclick="onclickShow4()" type="button" aria-label="לחץ כאן אם הקטגוריה לא רלוונטית אלייך" value="לא רלוונטי אלייך?" />
+
+                <!--hidden part-->
+                <p id="hidden4" class="hidden">במקרה של הגשת תביעה נוספת -השופט רשאי לא לדון בה ולהעביר אותה לבית משפט השלום (תביעה אזרחית) </p>
+            </section>
+
+            <!--accordion part-->
+            <section id="accord">
+                <h2>דברים שחשוב לדעת (לחץ להרחבה על כל נתון):</h2>
+                <div class="accordion" id="accordionExample">
+                    <section>
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        לא ניתן להיות מיוצג ע"י עורך דין בתביעה קטנה
+                                    </button>
+                                </h3>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body" id="card-body1">
+                                    <div class="iconAcco" id="iconAccord1"> </div>
+                                    <ul>
+                                        <li> ניתן להגיש בקשה מפורטת למזכירות בית המשפט בנוגע לייצוג על ידי עורך דין.<br /> שימו לב כי לרוב בקשה זו נדחית.</li>
+                                        <li> אדם אחר יכול לייצג אותך אם תגיש בקשת ייפוי כוח לבית משפט. יש להצהיר <br />שהאדם עושה זאת ללא תמורה כספית ושלא עוסק בזה במקצועו.  </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        תשלום האגרה משתנה לפי סכום התביעה
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="answer">
+                                            <div class="iconAcco" id="iconAccord2"></div>
+                                            <ul>
+                                                <li> בתביעה של עד 5000 ₪ יש לשלם 50 ₪ אגרה.   </li>
+                                                <li> כל סכום מעל 5000 ₪  -האגרה תהיה בסך 1% מסכום התביעה. </li>
+                                            </ul>
+                                        </li>
+                                        <li class="answer">
+                                            <div class="iconAcco" id="iconAccord3"></div>
+                                            <ul>
+                                                <li id="li1">
+                                                    במעמד הגשת התביעה
+                                                    ניתן לשלם את האגרה בכרטיס אשראי בלבד.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="answer">
+                                            <div class="iconAcco" id="iconAccord4"></div>
+                                            <ul>
+                                                <li id="li2">
+                                                    אם רוצים לשלם במזומן
+                                                    ניתן לבקש במזכירות בית המשפט שובר תשלום ואיתו לשלם בדואר.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        יש לשים לב לבחירת מיקום בית המשפט בו תפתחו את התביעה
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <section>
+                                        <h4> צריך להגיש תביעה בבית משפט שנבחר לפי אחד הסיבות הבאות:</h4>
+                                        <ul>
+                                            <!--part 1 of 4-->
+                                            <li id="answer1">
+                                                <div class="iconAcco" id="iconAccord5"></div>
+                                                <section>
+                                                    <h5 id="h5id1">
+                                                        מיקום הנתבע
+                                                        (לא התובע)
+                                                    </h5>
+                                                    <ul>
+                                                        <li>  מקום המגורים  </li>
+                                                        <li>  מקום העסק  </li>
+                                                    </ul>
+                                                </section>
+                                            </li>
+                                            <!--part 2 of 4-->
+                                            <li id="answer2">
+                                                <div class="iconAcco" id="iconAccord6"></div>
+                                                <section>
+                                                    <h5 id="h5id2"> מיקום העסקה</h5>
+                                                    <ul>
+                                                        <li>   המקום שבו העסקה* נוצרה. </li>
+                                                        <li>
+                                                            המקום שבו העסקה* הייתה אמורה להתקיים.
+                                                        </li>
+                                                        <p>  *עסקה - הסכם התחייבות או רכישת מוצר או מסירת נכס.   </p>
+                                                    </ul>
+                                                </section>
+                                            </li>
+                                            <!--part 3 of 4-->
+                                            <li id="answer3">
+                                                <div class="iconAcco" id="iconAccord7"></div>
+                                                <section>
+                                                    <h5 id="h5id3">מיקום המעשה</h5>
+                                                    <ul>
+                                                        <li>  מקום המחדל  </li>
+                                                        <li>  מקום התאונה  </li>
+                                                    </ul>
+                                                </section>
+                                            </li>
+                                            <!--part 4 of 4-->
+                                            <li id="answer4">
+                                                <div class="iconAcco" id="iconAccord8"></div>
+                                                <section>
+                                                    <h5 id="h5id4">בעניין פרסום/סחר ברשת האינטרנט</h5>
+                                                    <ul>
+                                                        <li>אפשר להגיש במקום מגורים או העסק של התובע או של הנתבע. </li>
+                                                    </ul>
+                                                </section>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        יש לתת כמה שיותר מידע אודות הנתבע
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="iconAcco" id="iconAccord9"></div>
+                                    <h4 id="lastH4Acoo">שם מלא, מספר ת"ז/ח"פ וכתובת – חשובים לפתיחת תיק. </h4>
+                                    <section>
+                                        <h5> למה חשוב מספר ת"ז/ח"פ ? </h5>
+                                        <ul id="lastAcco">
+                                            <li>
+                                                במידה וזכית במשפט והסכום שמגיע לך לא שולם, לא תוכל לגשת להוצאה לפועל<br /> ללא מספר ת"ז/ח"פ.
+                                            </li>
+                                            <li>  לבירור מספר ת"ז ניתן לגשת למשרד הפנים ולברר אותה בעלות של 25 ₪.  </li>
+                                            <li>
+                                                לבירור מספר ח"פ
+                                                <a id="linkcolor" href="https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8" target="_blank">לחץ כאן בכדי להעזר באתר רשות התאגידים.</a>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </article>
+        <footer>
+            <nav role="navigation" aria-label="footer" id="footerNav">
+                <ul>
+                    <li><a href="‏‏‏‏‏‏page 5- about.html">אודות</a> </li>
+                    <li><a href="‏‏‏‏‏‏‏‏page 6- webMap.html">מפת האתר</a> </li>
+                    <li><a href="‏‏‏‏‏‏‏‏‏‏page 7 - contact.html">צור קשר</a> </li>
+                </ul>
+            </nav>
+            <div id="squr3"> </div>
+            <div id="squr4"> </div>
+            <div class="dropup">
+                <button type="button" id="craditBtn" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    קרדיטים
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.freepik.com/" target="_blank">freepik:</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/background-with-advocacy-elements_2250092.htm" target="_blank">law elements</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/law-justice-retro-cartoon-poster-with-sentence-announcement-convict-bars_4188752.htm" target="_blank">cartoon</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/arrow-doodles-set_4561963.htm" target="_blank">arroe</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/flat-follow-us-background_3784473.htm" target="_blank">flat follow us</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/geometric-checklist-with-pencil_1086501.htm" target="_blank">checklist</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/law-horizontal-banners-flat_1536665.htm" target="_blank">law banners</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/modern-subscription-pop-up-with-flat-design_2669919.htm" target="_blank">pop up</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/business-concept-icons-set_4663414.htm" target="_blank">business</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/business-concept-icons-set_4663414.htm" target="_blank">content</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/economy-landing-page_4408809.htm" target="_blank">economy</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/business-handshake-background-flat-style_2098714.htm" target="_blank">handshake</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/isometric-money-background_4433332.htm" target="_blank">money</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/casual-men-s-clothing_809250.htm" target="_blank">clothing</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/illustration-alarm-clock_2806774.htm" target="_blank">alarm clock</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/car-crash_799348.htm" target="_blank">car crash</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/planning-schedule-template_3150779.htm" target="_blank">schedual</a></li>
+                    <li><a href="https://www.flaticon.com" target="_blank">FlatIcon:</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/auction_880505#term=Legal%20hammer&page=1&position=73" target="_blank">hammer</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/auction_1203407#term=judge&page=1&position=68" target="_blank">judge</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/navigator_1897528#term=MAP&page=12&position=57" target="_blank">map</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/team_476861" target="_blank">team</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/office_1870331#term=office&page=5&position=37" target="_blank">office</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/policeman_1022484#term=security%20guard&page=1&position=4" target="_blank">security</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/attach_272344#term=document&page=2&position=15" target="_blank">attach</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/save-money_1611302" target="_blank">save money</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/student_326933#term=computer&page=2&position=38" target="_blank">student</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/man_417777#term=person&page=1&position=14" target="_blank">man</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/email_912023#term=mail&page=7&position=92" target="_blank">email</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/world-wide-web_841364#term=WWW&page=1&position=34" target="_blank">www</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/shekel_1490846#term=Shekel&page=1&position=10" target="_blank">shekel</a></li>
+                    <li><a href="https://icons8.com/" target="_blank">icons8:</a></li>
+                    <li><a href="https://icons8.com/icons/set/id" target="_blank">id</a></li>
+                    <li><a href="https://icons8.com/icons/set/icons8-permanent-job-96" target="_blank">job</a></li>
+                    <li><a href="https://icons8.com/icons/set/cardit-card" target="_blank">cardit card</a></li>
+                    <li><a href="https://icons8.com/icons/set/15" target="_blank">15</a></li>
+                    <li><a href="https://icons8.com/icons/set/5" target="_blank">5</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

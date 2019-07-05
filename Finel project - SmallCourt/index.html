@@ -1,0 +1,200 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>משפט בקטנה- דף הבית</title>
+    <meta name="description" content="כל מה שצריך לדעת על תביעה קטנה" />
+    <meta name="keywords" content="תביעה קטנה, בית משפט לתביעות קטנות, צווים מיידים" />
+    <meta name="author" content="שירה כהן, דניאלה זוהר, ריטה זלוטניקוב" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="image/favicon.png" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+
+</head>
+<body>
+    <div id="container" class="container">
+        <article>
+            <header role="banner">
+                <div id="squr1"> </div>
+                <div id="squr2"> </div>
+                <a id="logoA" href="index.html">
+                    <h1>משפט <span id="h1Blue">בקטנה</span></h1>
+                    <p>הכל על תביעה קטנה</p>
+                    <img src="image/logo.png" alt="נוצת דיו" />
+                </a>
+                <input id="noneMove" class="btn" onclick="animationStop()" type="button" value="הפסק תזוזות" />
+                <!--skip on contant-->
+                <ul id="skip">
+                    <li><a href="#startLinks">דלג לשלבי התביעה</a></li>
+                    <li><a href="#carouselExampleIndicators">דלג למילון מושגים</a></li>
+                </ul>
+
+                <nav role="navigation" aria-label="Primary" id="nav" class="nav">
+                    <ul id="nav_inner" class="nav__list">
+                        <li class="has-drop">
+                            <a href="page 1- aniTovea.html">אני התובע.ת</a>
+                            <ul class="nav__list__drop">
+                                <li><a href="‏‏‏‏page 2- startProcess.html">תחילת תהליך התביעה</a></li>
+                                <li><a href="‏‏page 3- trailDay.html">יום הדיון</a></li>
+                                <li><a href="‏‏‏‏page 4- afterDecision.html">לאחר החלטת השופט</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-drop">
+                            <a class="notActive" href="#" aria-invalid="true">אני הנתבע.ת</a>
+                            <ul class="nav__list__drop">
+                                <li><a href="‏‏‏‏page 3 - trailDayNitba.html">יום הדיון</a></li>                             
+                                <li><a href="‏‏‏‏‏‏page 4 - afterDecisionNitba.html">לאחר החלטת השופט</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="notActive" href="#" aria-invalid="true">צווי הגנה</a> </li>
+                        <li class="has-drop">
+                            <a class="notActive" href="#" aria-invalid="true">מידע נוסף</a>
+                            <ul class="nav__list__drop">
+                                <li><a class="notActive" href="#" aria-invalid="true"> מילון מושגים</a></li>
+                                <li><a class="notActive" href="#" aria-invalid="true">פסקי דין לדוגמא</a></li>
+                                <li><a class="notActive" href="#" aria-invalid="true">שאלות ותשובות</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--the banner part-->
+                <div id="bigPic"> </div>
+                <p id="startInfo">הכל אודות תביעה קטנה<br /> בצורה ברורה ופשוטה</p>
+                <a href="#startLinks" id="startButton" aria-label="קפיצה לשלבי התביעה">התחל</a>
+            </header>
+
+
+            <!--icons part-->
+            <section id="startLinks">
+                <div id="yellowBack">
+                    <h2> שלבי התביעה</h2>
+                    <ul>
+                        <li><a href="page 1- aniTovea.html"><div id="chacklistpic" class="shake-bottom"></div>מידע ראשוני</a></li>
+                        <li><img class="arow" src="image/aroow.png" alt=" השלב הבא" /></li>
+                        <li><a href="‏‏‏‏page 2- startProcess.html"><div id="bookpic" class="shake-bottom"></div> תחילת תהליך התביעה</a></li>
+                        <li><img class="arow" src="image/aroow.png" alt=" השלב הבא" /></li>
+                        <li><a href="‏‏page 3- trailDay.html"><div id="hummerpic" class="shake-bottom"></div> יום הדיון</a></li>
+                        <li><img class="arow" src="image/aroow.png" alt=" השלב הבא" /></li>
+                        <li><a href="‏‏‏‏page 4- afterDecision.html"><div id="scrollpic" class="shake-bottom"></div> לאחר החלטת השופט</a></li>
+                    </ul>
+                </div>
+                <div id="brwonline"></div>
+            </section>
+
+            <!--carousel part-->
+            <section>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" aria-label="קרוסלת מושגים">
+                    <!--the h2 is cover by div so it will not change the carousel-->
+                    <div id="h2carosal">
+                        <h2> מילון מושגים</h2>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+
+                    <!--we know that sections are needed here but when we added them the carousel stop working-->
+                    <div class="carousel-inner" alt="קרוסלת מושגים">
+                            <div class="carousel-item active">
+                                <h3>שכ"ט- שכר טרחה</h3>
+                                <p>השופט פוסק על סכום לשכר הטרחה במקרה ויש עדים שהגיעו להעיד וצריך לשלם להם<br /> על פספוס יום עבודתם. במקרה ושוכרים עו"ד השופט יפסוק על שכר טרחה גם לו,<br /> בנוסף לתשלום שסופק מראש. את שכ"ט ישלם הצד שקבע השופט.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <h3>פסק דין, החלטה</h3>
+                                <p>פסק דין שם סוף לסכסוך ואילו החלטה אחרת נותנת הוראות לבעלי הדין או מי<br /> מהם- ואין בה כדי לשים סוף לסכסוך.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <h3>ערעור</h3>
+                                <p>הגשת ערעור היא למעשה אי השלמה עם פסק הדין ורצון לנסות לשנותו. הדבר יתבצע<br /> ע"י הגשת ערעור (מסמך אשר מגישים במזכירות בית המשפט המחוזי). </p>
+                            </div>
+                            <div class="carousel-item">
+                                <h3>כתב הגנה</h3>
+                                <p>על הנתבע להגיש כתב הגנה לבית המשפט עד 30 יום מיום קבלת התביעה לידיו.<br /> לעיתים במידה ולא יגיש יוכל התובע לבקש פסק דין בהעדר הגנה.</p>
+                            </div>
+                    </div>
+
+                    <!--line 5977 the css of the arrows-->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <a class="notActive" id="fullDict" href="#" aria-invalid="true"> למילון המלא </a>
+                </div>
+            </section>
+        </article>
+        <footer>
+            <nav role="navigation" aria-label="footer" id="footerNav">
+                <ul>
+                    <li><a href="‏‏‏‏‏‏page 5- about.html">אודות</a> </li>
+                    <li><a href="‏‏‏‏‏‏‏‏page 6- webMap.html">מפת האתר</a> </li>
+                    <li><a href="‏‏‏‏‏‏‏‏‏‏page 7 - contact.html">צור קשר</a> </li>
+                </ul>
+            </nav>
+            <div id="squr3"> </div>
+            <div id="squr4"> </div>
+            <div class="dropup">
+                <button type="button" id="craditBtn" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    קרדיטים
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.freepik.com/" target="_blank">freepik:</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/background-with-advocacy-elements_2250092.htm" target="_blank">law elements</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/law-justice-retro-cartoon-poster-with-sentence-announcement-convict-bars_4188752.htm" target="_blank">cartoon</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/arrow-doodles-set_4561963.htm" target="_blank">arroe</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/flat-follow-us-background_3784473.htm" target="_blank">flat follow us</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/geometric-checklist-with-pencil_1086501.htm" target="_blank">checklist</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/law-horizontal-banners-flat_1536665.htm" target="_blank">law banners</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/modern-subscription-pop-up-with-flat-design_2669919.htm" target="_blank">pop up</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/business-concept-icons-set_4663414.htm" target="_blank">business</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/business-concept-icons-set_4663414.htm" target="_blank">content</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/economy-landing-page_4408809.htm" target="_blank">economy</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/business-handshake-background-flat-style_2098714.htm" target="_blank">handshake</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/isometric-money-background_4433332.htm" target="_blank">money</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/casual-men-s-clothing_809250.htm" target="_blank">clothing</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/illustration-alarm-clock_2806774.htm" target="_blank">alarm clock</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/car-crash_799348.htm" target="_blank">car crash</a></li>
+                    <li><a href="https://www.freepik.com/free-vector/planning-schedule-template_3150779.htm" target="_blank">schedual</a></li>
+                    <li><a href="https://www.flaticon.com" target="_blank">FlatIcon:</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/auction_880505#term=Legal%20hammer&page=1&position=73" target="_blank">hammer</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/auction_1203407#term=judge&page=1&position=68" target="_blank">judge</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/navigator_1897528#term=MAP&page=12&position=57" target="_blank">map</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/team_476861" target="_blank">team</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/office_1870331#term=office&page=5&position=37" target="_blank">office</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/policeman_1022484#term=security%20guard&page=1&position=4" target="_blank">security</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/attach_272344#term=document&page=2&position=15" target="_blank">attach</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/save-money_1611302" target="_blank">save money</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/student_326933#term=computer&page=2&position=38" target="_blank">student</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/man_417777#term=person&page=1&position=14" target="_blank">man</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/email_912023#term=mail&page=7&position=92" target="_blank">email</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/world-wide-web_841364#term=WWW&page=1&position=34" target="_blank">www</a></li>
+                    <li><a href="https://www.flaticon.com/free-icon/shekel_1490846#term=Shekel&page=1&position=10" target="_blank">shekel</a></li>
+                    <li><a href="https://icons8.com/" target="_blank">icons8:</a></li>
+                    <li><a href="https://icons8.com/icons/set/id" target="_blank">id</a></li>
+                    <li><a href="https://icons8.com/icons/set/icons8-permanent-job-96" target="_blank">job</a></li>
+                    <li><a href="https://icons8.com/icons/set/cardit-card" target="_blank">cardit card</a></li>
+                    <li><a href="https://icons8.com/icons/set/15" target="_blank">15</a></li>
+                    <li><a href="https://icons8.com/icons/set/5" target="_blank">5</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
