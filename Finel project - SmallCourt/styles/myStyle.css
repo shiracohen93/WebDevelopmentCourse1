@@ -438,7 +438,6 @@ nav ul li {
     margin-top: 160px !important;
     margin-left: 120px;
 }
-
 #carouselExampleIndicators{
     width:1100px;
     height:350px;
@@ -476,7 +475,6 @@ nav ul li {
     width: 20px !important;
     border-radius: 50% !important;
 }
-
 #fullDict {
     float: left;
     background-color: white;
@@ -487,7 +485,6 @@ nav ul li {
     width: 100px;
     border: solid 0.5px #168282;
 }
-
 #noneMove {
     width: 120px;
     height: 40px;
@@ -500,7 +497,6 @@ nav ul li {
 #noneMove:focus{
     border:1px solid blue;
 }
-
 /*cradits btn footer*/
 
 #Buttoncardit {
@@ -1316,13 +1312,16 @@ nav ul li {
     font-size: 20px;
     list-style:none;
 }
+#odotpage  ol{
+    padding-bottom:20px;
+}
 #asideodot {
     position: absolute;
-    margin: -150px 605px 0px 0px;
+    margin: -160px 605px 0px 0px;
 }
 #asideodot > a > p{
     position: absolute;
-        margin: 100px -7px 0px 0px;
+    margin: 100px -65px 0px 0px;
     width: 261px;
 }
 #asideodot a img{
@@ -1345,8 +1344,6 @@ nav ul li {
 .mapWebA{
     color: #43757A;
 }
-
-
 /*-------------------------------------------------design page 7 contact------------------------------------*/
 #bigPic6 {
     background-image: url('../image/footer contact/contactBanner.png');
